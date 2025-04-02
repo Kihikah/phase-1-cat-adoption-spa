@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
     fetchCats();
 });
 
+let cart = [];  // Array to store the adopted cats
+
 function fetchCats() {
     console.log("Fetching cats...");
     fetch("https://phase-1-cat-adoption-spa-1-1v5p.onrender.com/cats")
@@ -49,25 +51,43 @@ function addEventListeners() {
     document.querySelectorAll(".adopt-btn").forEach(button => {
         button.addEventListener("click", (event) => {
             const catId = event.target.dataset.id;
-            console.log(`Deleting cat with ID: ${catId}`);
-            deleteCat(catId);
+            addToCart(catId);
         });
+    });
+
+    // Event listener for the cart button
+    document.getElementById("cart-btn").addEventListener("click", () => {
+        showCart();
     });
 }
 
-function deleteCat(catId) {
-    fetch(`https://phase-1-cat-adoption-spa-1-1v5p.onrender.com/cats/${catId}`, {
-        method: "DELETE",
-        mode: "cors" // Ensures cross-origin requests work
-    })
-    .then(response => {
-        if (!response.ok) {
-            throw new Error(`Error: ${response.status}`);
-        }
-        console.log(`Cat with ID ${catId} deleted successfully.`);
-        document.querySelector(`[data-id="${catId}"]`).remove();
-    })
-    .catch(error => console.error("Error deleting cat:", error));
+function addToCart(catId) {
+    fetch(`https://phase-1-cat-adoption-spa-1-1v5p.onrender.com/cats/${catId}`)
+        .then(response => response.json())
+        .then(cat => {
+            // Add the cat to the cart
+            cart.push(cat);
+            console.log(`Added ${cat.name} to the cart.`);
+            updateCartButton();
+        })
+        .catch(error => console.error("Error adding cat to cart:", error));
 }
 
-// http://localhost:3000
+function updateCartButton() {
+    const cartBtn = document.getElementById("cart-btn");
+    cartBtn.innerText = `Cart (${cart.length})`; // Update cart button with the number of cats in the cart
+}
+
+function showCart() {
+    if (cart.length === 0) {
+        alert("Your cart is empty.");
+        return;
+    }
+
+    let cartDetails = "Cats in your cart:\n\n";
+    cart.forEach(cat => {
+        cartDetails += `${cat.name} - ${cat.age} years old\n`;
+    });
+
+    alert(cartDetails);
+}
