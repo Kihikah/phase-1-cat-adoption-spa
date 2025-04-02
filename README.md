@@ -14,11 +14,11 @@ This is a Single Page Application (SPA) for adopting cats. Users can browse a li
 
 
  ## Technologies Used
--HTML5 – Structure of the web page
--CSS – Styling and layout
--JavaScript (ES6+) – Logic, API interaction, and event handling
--JSON Server / Public API – Fetching cat data
--Git & GitHub – Version control and hosting
+- **HTML5** – Structure of the web page  
+- **CSS** – Styling and layout  
+- **JavaScript (ES6+)** – Logic, API interaction, and event handling  
+- **JSON Server / Public API** – Fetching cat data  
+- **Git & GitHub** – Version control and hosting
 
 **Project Setup Instructions**
 Follow these steps to set up and run the project locally:
