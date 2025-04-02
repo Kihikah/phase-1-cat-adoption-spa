@@ -1,5 +1,5 @@
-##Cat Adoption SPA
-##Project Overview
+**Cat Adoption SPA**
+**Project Overview**
 This is a Single Page Application (SPA) for adopting cats. Users can browse a list of adorable cats available for adoption, view their details, and adopt them. Upon adoption, the cat is removed from the list.
 
 
@@ -10,7 +10,7 @@ This is a Single Page Application (SPA) for adopting cats. Users can browse a li
 -A polished and responsive UI using HTML, CSS, and JavaScript.
 -Uses asynchronous API requests to fetch and update cat data.
  
- ##Live Demo
+ **Live Demo**
 
 
  ##Technologies Used
@@ -20,7 +20,7 @@ This is a Single Page Application (SPA) for adopting cats. Users can browse a li
 -JSON Server / Public API – Fetching cat data
 -Git & GitHub – Version control and hosting
 
-##Project Setup Instructions
+**Project Setup Instructions**
 Follow these steps to set up and run the project locally:
 
 Clone the repository
@@ -47,7 +47,6 @@ open index.html       # On macOS
 ```
 
 ##Project Requirements Checklist
-
 ✅ Well-documented README
 ✅ Polished, portfolio-quality design
 ✅ Fully functional SPA with adoption feature
@@ -57,5 +56,5 @@ open index.html       # On macOS
 
 ##Author
 
-👤 Kariuki Kihikah🔗 GitHub Profile
+👤 Kariuki Kihikah🔗 https://github.com/Kihikah
 📧 Contact: kariukikihikah@gmail.com
