@@ -1,16 +1,17 @@
-**Cat Adoption SPA**
-**Project Overview**
+# Cat Adoption SPA
+## Project Overview
 This is a Single Page Application (SPA) for adopting cats. Users can browse a list of adorable cats available for adoption, view their details, and adopt them. Upon adoption, the cat is removed from the list.
 
 
 ## Features
--Fetches cat data dynamically from a public API.
--Displays cat images, names, and adoption statuses.
--Users can adopt a cat by clicking a button, which removes it from the list.
--A polished and responsive UI using HTML, CSS, and JavaScript.
--Uses asynchronous API requests to fetch and update cat data.
+- Fetches cat data dynamically from a public API.  
+- Displays cat images, names, and adoption statuses.  
+  - Includes additional details like health condition, age, etc.(future to be added features)  
+- Users can adopt a cat by clicking a button, which removes it from the list.(should take the user to adoptors page to input their details and pay required fee to adopt the cat)
+- A polished and responsive UI using HTML, CSS, and JavaScript.  
+- Uses asynchronous API requests to fetch and update cat data.
  
- **Live Demo**
+ ## Live DemoS
 
 
  ## Technologies Used
@@ -20,7 +21,7 @@ This is a Single Page Application (SPA) for adopting cats. Users can browse a li
 - **JSON Server / Public API** – Fetching cat data  
 - **Git & GitHub** – Version control and hosting
 
-**Project Setup Instructions**
+## Project Setup Instructions
 Follow these steps to set up and run the project locally:
 
 Clone the repository
@@ -46,15 +47,14 @@ start index.html      # On Windows
 open index.html       # On macOS
 ```
 
-##Project Requirements Checklist
-✅ Well-documented README
-✅ Polished, portfolio-quality design
-✅ Fully functional SPA with adoption feature
-✅ Uses a public API to fetch cat data
-✅ Includes at least 3 event listenerst
-✅ Hosted on GitHub Pages
+## Project Requirements Checklist
+- ✅ Well-documented README  
+- ✅ Polished, portfolio-quality design  
+- ✅ Fully functional SPA with adoption feature  
+- ✅ Uses a public API to fetch cat data  
+- ✅ Includes at least 3 event listeners  
+- ✅ Hosted on GitHub Pages 
 
-##Author
-
-👤 Kariuki Kihikah🔗 https://github.com/Kihikah
-📧 Contact: kariukikihikah@gmail.com
+## Author
+- 👤 Kariuki Kihikah🔗 https://github.com/Kihikah
+- 📧 Contact: kariukikihikah@gmail.com
