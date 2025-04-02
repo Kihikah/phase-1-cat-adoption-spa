@@ -1,13 +1,15 @@
 {
-    "name": "cat-adoption-spa",
-    "version": "1.0.0",
-    "description": "A simple cat adoption app",
-    "main": "server.js",
-    "scripts": {
-      "start": "json-server --watch db.json --port 3000"
-    },
-    "dependencies": {
-      "json-server": "^0.17.0"
-    }
+  "name": "cat-adoption-spa",
+  "version": "1.0.0",
+  "description": "A simple cat adoption app",
+  "main": "server.js",
+ "scripts": {
+"start": "node server.js"
+},
+
+  "dependencies": {
+    "json-server": "^0.17.0"
   }
+}
+
   
