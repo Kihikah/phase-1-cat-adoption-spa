@@ -1,10 +1,28 @@
 {
   "cats": [
     {
+      "id": "1",
+      "name": "Curl",
+      "image": "https://cdn2.thecatapi.com/images/8r4M61iyS.jpg",
+      "age": 2,
+      "adopted": false
+    },{
+      "id": "2",
+      "name": "Cleo",
+      "image": "https://cdn2.thecatapi.com/images/gVrhv_yAY.jpg",
+      "age": 1.2,
+      "adopted": false
+    },{
       "id": "3",
-      "name": "Shadow",
-      "image": "Images/8NdgktL3E.jpg",
-      "age": 3,
+      "name": "American bob",
+      "image": "https://cdn2.thecatapi.com/images/xnsqonbjW.jpg",
+      "age": 1,
+      "adopted": false
+    },{
+      "id": "4",
+      "name": "Bambino",
+      "image": "https://cdn2.thecatapi.com/images/ji-5E0VwY.jpg",
+      "age": 1,
       "adopted": false
     },
     {
