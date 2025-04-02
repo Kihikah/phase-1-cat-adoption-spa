@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function fetchCats() {
-    fetch("http://localhost:3000/cats")
+    fetch("https://phase-1-cat-adoption-spa-1-1v5p.onrender.com/cats")
         .then(response => response.json())
         .then(cats => displayCats(cats))
         .catch(error => console.error("Error fetching cats:", error));
