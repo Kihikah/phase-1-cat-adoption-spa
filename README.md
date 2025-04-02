@@ -18,6 +18,10 @@ The "Adopt" button functions as a selling action, adding the selected cat to the
 
  
 
+https://github.com/user-attachments/assets/e2f5435f-c6e5-4600-b983-16cdf5f77501
+
+
+
 
  ## Technologies Used
 - **HTML5** – Structure of the web page  
