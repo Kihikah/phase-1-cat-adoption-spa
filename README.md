@@ -1,8 +1,8 @@
 # Cat Adoption SPA
 ## Project Overview
-- This is a Single Page Application (SPA) for adopting cats. Users can browse a list of adorable cats available for adoption, view their details, and adopt them. Upon adoption, the cat is removed from the list. 
+- This is a Single Page Application (SPA) for adopting cats. Users can browse a list of adorable cats available for adoption, view their details, and adopt them. Upon adoption, the cat is moved to cart basket. 
 - In the future, the web app should seamlessly allow the addition of new cats, whether they are born within the SPA, rescued as strays from the streets, or donated by well-wishers.
-The "Adopt" button functions as a selling action, removing the selected cat from the list and redirecting the user to a page where they can enter their adoption details and complete the required payment for the cat.
+The "Adopt" button functions as a selling action, adding the selected cat to the cart. The cat can either be returned to the SPA from the cart or dispatched to the adopter. Once the cat is removed from the SPA and the cart, it is deleted from the list.
 
 
 ## Features
@@ -14,6 +14,9 @@ The "Adopt" button functions as a selling action, removing the selected cat from
 - Uses asynchronous API requests to fetch and update cat data.
  
  ## Live Demos
+ https://phase-1-cat-adoption-spa-1-1v5p.onrender.com
+
+ 
 
 
  ## Technologies Used
