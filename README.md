@@ -3,7 +3,7 @@
 This is a Single Page Application (SPA) for adopting cats. Users can browse a list of adorable cats available for adoption, view their details, and adopt them. Upon adoption, the cat is removed from the list.
 
 
-##Features
+## Features
 -Fetches cat data dynamically from a public API.
 -Displays cat images, names, and adoption statuses.
 -Users can adopt a cat by clicking a button, which removes it from the list.
@@ -13,7 +13,7 @@ This is a Single Page Application (SPA) for adopting cats. Users can browse a li
  **Live Demo**
 
 
- ##Technologies Used
+ ## Technologies Used
 -HTML5 – Structure of the web page
 -CSS – Styling and layout
 -JavaScript (ES6+) – Logic, API interaction, and event handling
